@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    th {
+        @apply bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100;
+    }
+
+    td {
+        @apply border px-4 py-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100;
+    }
+
+    .theme {
+        @apply bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100;
+    }
+
+    .default {
+        @apply bg-white dark:bg-gray-800 text-gray-900 dark:text-white;
+    }
+}
